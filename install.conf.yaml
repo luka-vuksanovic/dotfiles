@@ -1,0 +1,11 @@
+- defaults:
+    link:
+      relink: true
+
+- link:
+    ~/.zshrc: .zshrc
+    ~/.config/sketchybar/: sketchybar
+    ~/.config/yabai: yabai
+
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]
