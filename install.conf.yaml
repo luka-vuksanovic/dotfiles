@@ -6,6 +6,7 @@
     ~/.zshrc: .zshrc
     ~/.config/sketchybar/: sketchybar
     ~/.config/yabai: yabai
+    ~/.config/skhd: skhd
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
