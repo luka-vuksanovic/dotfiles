@@ -1,12 +1,12 @@
 yabai -m config                                 \
-    mouse_follows_focus          off             \
-    focus_follows_mouse          off	\
+    mouse_follows_focus          off            \
+    focus_follows_mouse          off	        \
     window_origin_display        default        \
     window_placement             second_child   \
     window_zoom_persist          on             \
     window_topmost               off            \
     window_shadow                on             \
-    window_animation_duration    0.0            \
+    window_animation_duration    0.3            \
     window_animation_frame_rate  120            \
     window_opacity_duration      0.0            \
     active_window_opacity        1.0            \
@@ -38,5 +38,10 @@ yabai -m signal --add event=window_focused action="sketchybar --trigger window_f
 yabai -m signal --add event=window_created action="sketchybar --trigger windows_on_spaces"
 yabai -m signal --add event=window_destroyed action="sketchybar --trigger windows_on_spaces"
 yabai -m config focus_follows_mouse autoraise
+
+yabai -m config auto_padding on
+yabai -m config auto_padding_min_aspect 1.70
+yabai -m config auto_padding_width 840
+yabai -m config auto_padding_height 900
 
 sketchybar --trigger windows_on_spaces
