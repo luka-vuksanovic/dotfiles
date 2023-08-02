@@ -1,1 +1,2 @@
 cmd - return : /Users/lukavuksanovic/.scripts/monitor_padding.sh
+cmd + shift - w : yabai -m space --create && sketchybar --trigger windows_on_spaces --trigger space_change
