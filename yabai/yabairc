@@ -27,8 +27,8 @@ yabai -m config mouse_follows_focus on \
     normal_window_opacity        0.90           \
     window_opacity               off            \
     window_animation_duration    0.3            \
-    active_window_border_color   0xff9f07fd     \
-    normal_window_border_color   0xff9f07fd     \
+    active_window_border_color   0xffFC33FF     \
+    normal_window_border_color   0xff006ACD     \
     insert_feedback_color        0xff9dd274     \
     window_border_width          4              \
     window_border_radius         12             \
@@ -42,7 +42,7 @@ yabai -m config mouse_follows_focus on \
     bottom_padding               12             \
     left_padding                 12             \
     right_padding                12             \
-    window_gap                   06             \
+    window_gap                   08             \
     layout                       bsp            \
     mouse_modifier               cmd            \
     mouse_action1                move           \
